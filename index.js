@@ -10,7 +10,7 @@ function map(array, func){
 
 
 function reduce(array, start, func){
-  let result = start
+  let result = start : array[0]
   for (let i = 0; i < array.length; i++){
     start = 
   }
