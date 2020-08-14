@@ -9,9 +9,9 @@ function map(array, func){
 }
 
 
-function reduce(array, startingPoint, func){
+function reduce(array, start, func){
   for (let i = 0; i < array.length; i++){
-    startingPoint = 
+    start = 
   }
-  return startingPoint;
+  return start;
 }
