@@ -9,10 +9,10 @@ function map(array, func){
 }
 
 
-function reduce(array, start, func){
+function reduce(array, func, start){
   let result = (!!start) ? start : array[0];
   for (let i = 0; i < array.length; i++){
-    result = (func(array[i], result))
+    result = func(array[i], result);
   }
   return result;
 }
