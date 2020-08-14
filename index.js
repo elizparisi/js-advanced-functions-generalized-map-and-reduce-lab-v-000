@@ -8,3 +8,10 @@ function map(array, func){
   return result;
 }
 
+
+function reduce(array, startingPoint, func){
+  for (let i = 0; i < array.length; i++){
+    startingPoint = 
+  }
+  return startingPoint;
+}
